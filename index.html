@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Peluquería Estilo Urbano</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <h1>Peluquería Estilo Urbano</h1>
+    <p>Cortes modernos • Atención personalizada</p>
+    <a href="https://wa.me/5493564304440" target="_blank" class="btn">
+      Sacar turno por WhatsApp
+    </a>
+  </div>
+</header>
+
+  <section class="services reveal">
+    <h2>Servicios</h2>
+    <div class="cards">
+      <div class="card">✂️ Corte clásico</div>
+      <div class="card">💈 Corte moderno</div>
+      <div class="card">🧔 Barba</div>
+    </div>
+  </section>
+
+  <section class="testimonials reveeal">
+    <h2>Opiniones</h2>
+    <p>"Excelente atención y muy buenos cortes" ⭐⭐⭐⭐⭐</p>
+    <p>"Siempre salgo conforme" ⭐⭐⭐⭐⭐</p>
+  </section>
+
+  <section class="contact reveal">
+  <h2>Contacto</h2>
+
+  <form onsubmit="sendWhatsApp(event)">
+    <input type="text" id="name" placeholder="Tu nombre" required>
+    <input type="text" id="message" placeholder="Tu consulta" required>
+    <button type="submit" class="btn">Enviar por WhatsApp</button>
+  </form>
+</section>
+
+  <footer>
+    <p>📍 San Francisco | 📞 3564 30-4440</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
