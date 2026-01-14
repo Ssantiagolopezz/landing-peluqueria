@@ -20,7 +20,7 @@ function sendWhatsApp(e) {
   const name = document.getElementById("name").value;
   const message = document.getElementById("message").value;
 
-  const phone = "5493564304440"; // cambiar por el del cliente
+  const phone = "54911234567"; // cambiar por el del cliente
   const text = `Hola, soy ${name}. ${message}`;
 
   window.open(
